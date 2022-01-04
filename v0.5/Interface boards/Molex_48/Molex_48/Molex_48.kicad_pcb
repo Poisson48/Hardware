@@ -268,7 +268,7 @@
 
   (footprint "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 5A19A433) (tstamp fb435e7a-1b8b-4e1d-a715-edbaf612f936)
-    (at 102.26 117.875 180)
+    (at 102.21 120.6 180)
     (descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 2x20 2.54mm double row")
     (property "Sheetfile" "Molex_48.kicad_sch")
