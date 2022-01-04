@@ -1,6 +1,5 @@
 (fp_lib_table
-  (lib (name "Connector_Automotive")(type "KiCad")(uri "${KIPRJMOD}/lib/Connector_Automotive/Connector_Automotive.pretty")(options "")(descr "")(disabled))
-  (lib (name "Misc")(type "KiCad")(uri "${KIPRJMOD}/lib/Misc/Misc.pretty")(options "")(descr "")(disabled))
-  (lib (name "Shields")(type "KiCad")(uri "${KIPRJMOD}/lib/Shields/Shields.pretty")(options "")(descr "")(disabled))
-  (lib (name "Arduino")(type "KiCad")(uri "E:/github/poisson48_libs/arduino-kicad-library-master/Arduino.pretty")(options "")(descr ""))
+  (lib (name Connector_Automotive)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_Automotive/Connector_Automotive.pretty)(options "")(descr ""))
+  (lib (name Misc)(type KiCad)(uri ${KIPRJMOD}/lib/Misc/Misc.pretty)(options "")(descr ""))
+  (lib (name Shields)(type KiCad)(uri ${KIPRJMOD}/lib/Shields/Shields.pretty)(options "")(descr ""))
 )

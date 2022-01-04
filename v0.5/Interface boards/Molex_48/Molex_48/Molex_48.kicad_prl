@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "Toutes Couches",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -33,7 +33,6 @@
       3,
       4,
       5,
-      6,
       8,
       9,
       10,
@@ -63,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "000ffef_80000001",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "v0.4.4c.kicad_prl",
+    "filename": "Molex_48.kicad_prl",
     "version": 3
   },
   "project": {
