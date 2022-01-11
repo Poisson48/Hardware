@@ -1,0 +1,51 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 053e9989-c0de-4aeb-bc6f-6a6c2383d78a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 43.18 100.33) (size 41.91 44.45) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 0fc1e968-f720-4442-bbf8-8302db7cf852)
+    (property "Nom feuille" "alim" (id 0) (at 43.18 99.6184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Fichier de feuille" "alim.kicad_sch" (id 1) (at 43.18 145.3646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/2b8ee5a5-55cf-4669-b1e4-1d73093930e8"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/3a018b80-85dd-4e29-a2c0-6f49be7544cf"
+      (reference "#PWR?") (unit 1) (value "+12P") (footprint "")
+    )
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/5c79b2ac-c2d7-4edf-8bdf-cad6056a9056"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
+    )
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/5d9cdbe8-ff20-4edd-8a4f-f7b52cb8fba9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/60741ea1-7528-42ca-816a-b13d9d2d68b1"
+      (reference "C?") (unit 1) (value "C") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/73a81409-de13-4bad-95f2-e3aec9ec5fc8"
+      (reference "C?") (unit 1) (value "C") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/0fc1e968-f720-4442-bbf8-8302db7cf852/036b0fcf-49d5-49e0-9a98-3a50d6fded0f"
+      (reference "F?") (unit 1) (value " 576-2920L700/24SLER ") (footprint "Fuse:Fuse_2920_7451Metric")
+    )
+  )
+)
