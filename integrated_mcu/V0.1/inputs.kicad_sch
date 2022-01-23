@@ -1,0 +1,18 @@
+(kicad_sch (version 20220103) (generator eeschema)
+
+  (uuid e1eebe88-6f76-436e-82f1-c87f97c9b860)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (global_label "Clutch_in" (shape input) (at 50.8 38.1 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid a03d1486-623b-45b8-8ae6-ab12f7e14b21)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (id 0) (at -69.85 -82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+  )
+)

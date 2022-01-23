@@ -1,7 +1,7 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "Toutes Couches",
+    "active_layer": 36,
+    "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -12,7 +12,6 @@
       "vias": 1.0,
       "zones": 0.6
     },
-    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -62,11 +61,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "7fdffff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "V0.1.kicad_prl",
+    "filename": "igniter.kicad_prl",
     "version": 3
   },
   "project": {
