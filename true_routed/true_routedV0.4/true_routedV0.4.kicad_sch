@@ -1,0 +1,225 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 79058cb2-6b04-4d6e-97bc-eccf589fdff9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 35.56) (size 58.42 62.23) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid 40dfb192-53c0-48f4-9fa7-ebfb733884cb)
+    (property "Nom feuille" "fuel_and_injector" (id 0) (at 25.4 34.8484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Fichier de feuille" "fuel_and_injector.kicad_sch" (id 1) (at 25.4 98.3746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/0df8ad99-8e1d-4c23-ab09-01f0a039cd06"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/12a8b988-df3b-4e0a-a4ea-1bbcdd33bc81"
+      (reference "#PWR?") (unit 1) (value "Vdrive") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/27d12225-aaf6-4ea8-bbd6-f2e9140c3afd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/2ee7c7ed-a079-4d2c-ac6f-09bec641fd0f"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/4bd68ff2-5ca5-4fed-aa0a-0ad45b188055"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/51411a6c-8094-46cd-a86c-2afb587b3363"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/56d9771a-cca4-4858-84b5-f06d6f415fc6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/694b242b-c252-49c2-8487-869fc43f03c9"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/9430a69e-6671-4ed0-bc67-3c8c486f9602"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/abc744f5-76c9-479c-81c8-598d859f3a58"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/b6f0dab5-b681-4e32-9b05-40bec0813c97"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/bf9aa63d-535e-4067-a4ad-4584e85c9d87"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c081977e-02f6-44a5-8450-cc1cdab8a1f2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c5f77b88-b6ce-4e34-9c11-aa0457a125e1"
+      (reference "#PWR?") (unit 1) (value "Vdrive") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c765e24f-f2e8-4895-9c7b-416bcba9fa93"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c90b8eeb-a112-4cf5-9116-dfc151c706b4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/ca19e622-1727-4d5a-ba7d-1d05e5e5c585"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/ca886e6e-856f-473b-8052-806473895c21"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/ccdb58f8-7a50-405a-8542-a3121634dad7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/ce33f19f-fd04-47a7-89c5-657c78ab384d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/dfad927f-dafd-4859-a74b-07da3f522684"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/e7e4b33a-b033-48b0-aef3-d1153320d7c3"
+      (reference "#PWR?") (unit 1) (value "Vdrive") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/f7927cad-7f1b-49bd-97c8-f03b09592f38"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/f9109c08-494a-4a00-aa52-e7d3311f002a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/37d1da6a-8a47-4bb8-af6e-cc1bb79a4c19"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/96f46847-37d8-45ce-a05d-ecb602055d8f"
+      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/970fdab3-b9df-4f22-9667-1b75acd23848"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/99e79bcd-3c2a-41f6-b315-94a4efe97717"
+      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/6fa6a35a-3a8f-46e0-b8a3-293ed6d40c0a"
+      (reference "D?") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/7e716915-1306-400a-b901-b2048aef2e7c"
+      (reference "D?") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/bbbd1cfc-d909-4f99-ae8c-e5aea733c34b"
+      (reference "D?") (unit 1) (value "D") (footprint "Diode_SMD:D_SOD-323")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c1d00559-9e71-405d-8aaa-26f2e8f7a82d"
+      (reference "D?") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c3cc339a-5f89-47ad-a14a-7d02761e3cf8"
+      (reference "IC?") (unit 1) (value "1ED3124MU12FXUMA1") (footprint "SOIC127P600X172-8N")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/079f4190-850a-4eaa-a665-f809778b51f9"
+      (reference "JP?") (unit 1) (value "Ignition Voltage") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/0536e2f7-d468-425c-bde9-4c2c70c5cf1b"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/09e751c2-cbce-45a2-86a8-e20c5edeec32"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/0e9f2130-efee-44f2-9857-2e7d1ce8be2f"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/1d99156a-180f-4bb7-9b54-5653bdfd68c6"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/1f4ee5ec-13d5-41ca-b279-5c951b096660"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/2394f862-441e-4114-9cab-2bc8aa82cab0"
+      (reference "R?") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/337dae0b-6c0c-4707-9439-4c5cf79bb79a"
+      (reference "R?") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/340e7f73-2202-469f-b5fe-3aaab64dd50c"
+      (reference "R?") (unit 1) (value "2.4k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/37248f1b-a787-48e0-a6ec-13862b0bf90d"
+      (reference "R?") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/38348631-1fe6-463f-b3dc-a93cad44948d"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/50e29b48-bd40-421b-85a3-5a6370d111e3"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/613afa15-c030-4f46-9118-11cdc7436b9e"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/698f565b-041f-4556-9b62-5ba11508fd2d"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/6c86362f-3dba-42f3-a098-da753483b971"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/79abaf92-fc2c-4c31-8dee-a7c763e993cb"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/9ce73930-a724-47d3-a264-10c5c0eacacd"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/a912a2dd-0098-4e8c-8580-09277c886ce0"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/bc27ab8f-c020-4ca3-9b80-d8f2bd87834c"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/c3d3b54c-3a5f-4771-82dd-3d99cf06ae93"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/ddd5b5de-5da5-4a7e-8de3-81decd875e8c"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/eb274735-b5fc-4ff7-ac19-e4c1041eff51"
+      (reference "R?") (unit 1) (value "2.4k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/f107fa15-cb83-4d89-9499-31926dc2082f"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/f1bcd3a1-8c2d-4891-ba6e-b3c569064243"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/f62a32ec-3deb-4721-9822-78ce435e42b1"
+      (reference "R?") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/f6dbadac-af95-4eee-bb30-0885d59be007"
+      (reference "R?") (unit 1) (value "10R") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/fa40969f-099b-41be-a937-0d0ddeaa041d"
+      (reference "R?") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/5f8da18b-9b72-4cd9-b703-cddcd55745c7"
+      (reference "U?") (unit 1) (value "VNLD5090") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/6f516057-805e-44ea-9e1e-e04b876a1b79"
+      (reference "U?") (unit 1) (value "VNLD5090") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/a43f9ad3-8cb2-46e1-b1bf-9baf886bdaec"
+      (reference "U?") (unit 1) (value "VNLD5090") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/e1be103b-c1ac-407a-934f-2acae8752f36"
+      (reference "U?") (unit 1) (value "TC4424A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+    (path "/40dfb192-53c0-48f4-9fa7-ebfb733884cb/e36ba439-9e15-4ad3-ad41-d9dd23ac37a1"
+      (reference "U?") (unit 1) (value "TC4424A") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
+    )
+  )
+)
