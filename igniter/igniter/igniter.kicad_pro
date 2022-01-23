@@ -48,7 +48,13 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -122,8 +128,20 @@
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        1.0,
+        1.5,
+        2.0,
+        2.2,
+        2.5
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -344,7 +362,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "V0.1.kicad_pro",
+    "filename": "igniter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -388,10 +406,8 @@
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
       "dashed_lines_gap_length_ratio": 3.0,
-      "default_bus_thickness": 12.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "default_wire_thickness": 6.0,
       "field_names": [],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
@@ -419,7 +435,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "pdf/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -427,28 +443,8 @@
   },
   "sheets": [
     [
-      "053e9989-c0de-4aeb-bc6f-6a6c2383d78a",
+      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
-    ],
-    [
-      "0fc1e968-f720-4442-bbf8-8302db7cf852",
-      "alim"
-    ],
-    [
-      "482f9260-7b7c-4fbe-bb2d-7a07bc130f31",
-      "mcu"
-    ],
-    [
-      "fa16f237-4e21-4b18-8c54-f7de4e62bbb6",
-      "injectors_and_coils"
-    ],
-    [
-      "36cbfc74-bda3-4477-9d7b-ee4e7152b07f",
-      "outputs"
-    ],
-    [
-      "03243046-bbed-4536-838f-f39c55d64f58",
-      "inputs"
     ]
   ],
   "text_variables": {}
